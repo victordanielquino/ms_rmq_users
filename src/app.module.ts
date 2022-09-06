@@ -16,6 +16,7 @@ import config from './common/config';
       validationSchema: Joi.object({
         JWT_SECRET: Joi.string().required(),
         DATABASE_URL: Joi.string().required(),
+        AMQP_URL: Joi.string().required(),
       }),
     }),
   ],
